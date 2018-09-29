@@ -26,7 +26,6 @@ h3 {
 
 
 #heroSplash {
-  margin-bottom: 10rem;
   width: 100%;
 }
 
@@ -60,15 +59,19 @@ width: calc(100% - -9rem);
 
 #submit_button{
   cursor: pointer;
-  width: 500px;
+  width: 300px;
   height: 200px;
   /* display: inline-block; */
   font-family: 'Press Start 2P', cursive;
-  box-shadow: 0px 0px 17px 2px black;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
+}
+
+#form{
+  width: 100%
 }
 
 #fail_button{
-  position: relative;
+  /* position: relative; */
   transition: all 1s linear;
 }
 
@@ -97,7 +100,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+#link:hover {
   /*background-image:
      linear-gradient(
        to bottom, var(--mainColor) 0%,
@@ -108,10 +111,10 @@ a:hover {
   rgb(63,41,8),13px 13px 0
 }
 
-.submitted #fail_button{
+/* .submitted #fail_button{
   cursor: not-allowed;
 }
 
 .failed #submit_button{
   cursor: not-allowed;
-}
+} */

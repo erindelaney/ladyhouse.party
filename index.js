@@ -50,5 +50,3 @@ $(document).ready(function(){
 		document.getElementById('fail_button').style.transform = 'translateX(100rem)';
     })
 })
-
-
