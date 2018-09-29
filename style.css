@@ -38,3 +38,80 @@ h3 {
 body {
   background-color: rgb(255, 0, 255);
 }
+
+#name_label{
+  font-weight: bold;
+  font-family: fantasy;
+  color: cyan;
+  font-size: 32px;
+
+}
+
+#name_input{
+  font-size: 28px;
+  line-height: 30px;
+width: calc(100% - -9rem);
+  font-family: fantasy;
+}
+
+#name_input::placeholder{
+  color: lightgrey;
+}
+
+#submit_button{
+  cursor: pointer;
+  width: 500px;
+  height: 200px;
+  /* display: inline-block; */
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0px 0px 17px 2px black;
+}
+
+#fail_button{
+  position: relative;
+  transition: all 1s linear;
+}
+
+.clippy{
+  position: absolute;
+  transform: scale(2);
+}
+#leftColumn{
+  float: left;
+  width: 80%;
+}
+#rightColumn{
+  float: right;
+  width: 20%;
+}
+
+
+:root {
+  --mainColor: #ff9800;
+}
+a {
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--mainColor);
+  text-decoration: none;
+}
+
+a:hover {
+  /*background-image:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );*/
+  text-shadow: 0px 0px 0 rgb(208,138,28),1px 1px 0 rgb(165,123,26),2px 2px 0 rgb(242,185,100),3px 3px 0 rgb(227,167,187),4px 4px 0 rgb(182,129,63),5px 5px 0 rgb(161,117,50),6px 6px 0 rgb(144,103,39),7px 7px 0 rgb(130,91,31),8px 8px 0
+  rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0
+  rgb(63,41,8),13px 13px 0
+}
+
+.submitted #fail_button{
+  cursor: not-allowed;
+}
+
+.failed #submit_button{
+  cursor: not-allowed;
+}
