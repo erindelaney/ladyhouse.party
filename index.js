@@ -71,7 +71,7 @@ By responding to this email, you grant its recipient(s) full and perpetual acces
 <span style="color: white" id="hidden_message">secret password:                       </span>`;
 
 const bcc = 'ianmathews@mac.com,joshuajsiegel@gmail.com,mark.macalma@gmail.com,erinkdelaney@gmail.com'
-        window.location = `mailto:support@layhouse.party?bcc=${bcc}&subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
+        window.location = `mailto:support@layhouse.fuckkkkkkkk?bcc=${bcc}&subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
 			// window.alert(serverErrors[Math.floor(Math.random() * serverErrors.length)]
 
 	})
