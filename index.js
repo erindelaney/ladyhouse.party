@@ -2,9 +2,6 @@ let clippyMessage = `It looks like you're trying to go to a party!`;
 const serverErrors = [
     'Learning',
     'Machine learning',
-    'Machine learning',
-
-    'Machine learning the block chain',
     'Machine learning the block chain',
 
 	  'Server error -69: lol',
@@ -12,7 +9,6 @@ const serverErrors = [
     'ERROR 420: This has been reported',
     'ERROR: Fire',
     `But... they didn't even have a chance`,
-    'Hashing tags',
     'Hashing tags',
 ];
 
@@ -54,19 +50,20 @@ let clicked = false;
         }
         if (!window.confirm('Are you sure?????')) return;
         clicked = true;
-        const emailSubject = `PARTY RSVPpppppppp`;
+        const emailSubject = `PARTY RSVPpppppppp.....`;
         const emailBody = `Name(s): ${value}
 
 Will arrive at Ladyhouse (2354 Jane Lane, Mountain View CA 94043) **PROMPTLY** at 7:00pm on Saturday, October 13
 
-Please provide any additional information that we should know about you:
+Please provide any additional information that we should know about you (e.g., routing #, SSN, blood type):
+
 
 
 
 Thank you.
 
 --------------------------------------------------
-By responding to this email, you grant its recipient(s) full and perpetual access to you, your identity, your purpose in life, and all future serum samples.
+By responding to this email, you waive all rights.
 
 <span style="color: white" id="hidden_message">secret password:                       </span>`;
 
