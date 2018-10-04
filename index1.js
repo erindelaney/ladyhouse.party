@@ -89,6 +89,38 @@ const bcc = 'ianmathews@mac.com,joshuajsiegel@gmail.com,mark.macalma@gmail.com,e
 			// window.alert(serverErrors[Math.floor(Math.random() * serverErrors.length)]
 
 	})
+
+  document.getElementById('contact_button').addEventListener('click', (e) => {
+        const emailSubject = `PARTY RSVPpppppppp.....`;
+        const emailBody = `Name(s): ${document.getElementById('name_input').value}
+
+Will arrive at Ladyhouse (2354 Jane Lane, Mountain View CA 94043) **PROMPTLY** at 7:00pm on Saturday, October 13
+
+Please provide any additional information that we should know about you (e.g., routing #, SSN, blood type):
+
+
+
+
+Thank you.
+
+--------------------------------------------------
+By responding to this email, you waive all rights.
+
+
+
+
+
+
+
+
+
+<span style="color: white" id="hidden_message">secret password:                       </span>`;
+
+  const bcc = 'ianmathews@mac.com,joshuajsiegel@gmail.com,mark.macalma@gmail.com,erinkdelaney@gmail.com'
+        window.location = `mailto:support@layhouse.fuckkkkkkkk?bcc=${bcc}&subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
+      // window.alert(serverErrors[Math.floor(Math.random() * serverErrors.length)]
+
+  })
 });
 
 function clippyAttack(){

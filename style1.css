@@ -62,9 +62,20 @@ width: calc(100% - -9rem);
   width: 300px;
   height: 200px;
   position: relative;
+  background: whitesmoke;
+  margin-top: 1rem;
   /* display: inline-block; */
   font-family: 'Press Start 2P', cursive;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4);
+}
+#contact_button:hover{
+  font-weight: bold;
+  font-family: fantasy;
+  height: 150px;
+  width: 150px;
+  color: cyan;
+  background-color: rgb(255, 0, 255);
+
 }
 
 #form{
@@ -116,6 +127,7 @@ a {
   font-size: 50px;
   font-family: 'Cabin Sketch', cursive;
 }
+
 
 /* .submitted #fail_button{
   cursor: not-allowed;
