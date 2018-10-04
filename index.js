@@ -29,6 +29,8 @@ let clicked = false;
     const value = document.getElementById('name_input').value;
 	    if (!value){
 	        window.alert('Please provide your name(s)!');
+          e.preventDefault();
+          e.stopPropagation();
 	        return;
         }
 
@@ -46,9 +48,16 @@ let clicked = false;
         	});
         }
         if (clicked){
+          e.preventDefault();
+          e.stopPropagation();
           return;
         }
-        if (!window.confirm('Are you sure?????')) return;
+        if (!window.confirm('Are you sure?????')) {
+          e.preventDefault();
+          e.stopPropagation();
+          return;
+        }
+        return;
         clicked = true;
         const emailSubject = `PARTY RSVPpppppppp.....`;
         const emailBody = `Name(s): ${value}
