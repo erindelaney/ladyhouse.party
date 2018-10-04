@@ -65,6 +65,14 @@ Thank you.
 --------------------------------------------------
 By responding to this email, you waive all rights.
 
+
+
+
+
+
+
+
+
 <span style="color: white" id="hidden_message">secret password:                       </span>`;
 
 const bcc = 'ianmathews@mac.com,joshuajsiegel@gmail.com,mark.macalma@gmail.com,erinkdelaney@gmail.com'
